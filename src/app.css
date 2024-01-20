@@ -1,0 +1,35 @@
+.stars {
+  margin-top: 1rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  color: yellow;
+  cursor: pointer;
+}
+
+.inactive {
+  cursor: pointer;
+}
+
+.rating {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: rgb(22, 63, 139);
+  color: white;
+  border-radius: 1000px;
+  outline: none;
+  border: 0;
+  padding: 0rem 1rem;
+
+  &:hover {
+    background-color: black;
+  }
+}
